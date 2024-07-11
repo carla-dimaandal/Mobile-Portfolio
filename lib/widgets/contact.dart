@@ -42,7 +42,7 @@ class ContactTab extends StatelessWidget {
           icon: Icons.link_outlined,
           text: 'twitter.com/carla_dimaandal',
         ),
-        SizedBox(height: 20), // Add some extra space at the end
+        SizedBox(height: 20), 
       ],
     );
   }

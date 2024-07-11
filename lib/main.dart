@@ -69,9 +69,9 @@ class TabBarExample extends StatelessWidget {
         body: const TabBarView(
           children: <Widget>[
             ProfileTab(),
-            BookTab(),
-            LightbulbTab(),
-            ThumbUpTab(),
+            EducTab(),
+            SkillsTab(),
+            InterestsTab(),
             ContactTab(),
           ],
         ),
