@@ -1,3 +1,4 @@
+import 'package:carla_tabs/widgets/title.dart';
 import 'package:flutter/material.dart';
 
 class ContactTab extends StatelessWidget {
@@ -44,25 +45,6 @@ class ContactTab extends StatelessWidget {
         ),
         SizedBox(height: 20), 
       ],
-    );
-  }
-}
-
-class SectionTitle extends StatelessWidget {
-  final String title;
-  const SectionTitle({Key? key, required this.title}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8),
-      child: Text(
-        title,
-        style: TextStyle(
-          fontSize: 20,
-          fontWeight: FontWeight.bold,
-        ),
-      ),
     );
   }
 }
